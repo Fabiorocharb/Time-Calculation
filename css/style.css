@@ -23,38 +23,72 @@
   font-family: EuphoriaScript-Regular;
   src: url(../fonts/EuphoriaScript-Regular.ttf);
 }
-
-body {
-  background: coral;
+#principal {
+  width: 100%;
 }
-header {
-  display: flexbox;
-  position: relative;
-  background-image: url(../image/Imagem\ principal1.png);
-  margin-left: 30%;
-  width: 45.9%;
-  height: 59.5vh;
+#secundario {
+  width: 40%;
+  margin-top: -5%;
 }
 h1 {
-  font-family: EuphoriaScript-Regular;
-  font-size: 8vh;
-  text-align: center;
-  margin-right: 50%;
-  padding: 2%;
-}
-p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-  font-size: 2.5vh;
-  padding: 1%;
-  font-style: oblique;
-  margin-right: 48%;
-}
-input {
   display: flexbox;
   position: absolute;
-  margin-top: -15%;
-  margin-left: 32%;
+  font-family: EuphoriaScript-Regular;
+  font-size: 13vh;
+  margin-left: 25%;
+  margin-top: -50%;
+}
+p {
+  display: flexbox;
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3vh;
+  font-style: oblique;
+  margin-top: -34%;
+  margin-left: 25%;
+}
+.day {
+  display: flexbox;
+  position: absolute;
+  margin-bottom: -100%;
+  margin-top: -30%;
+  margin-left: 25%;
+  border: 3px solid whitesmoke;
+  width: 20%;
+  height: 3vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sleep {
+  display: flexbox;
+  position: absolute;
+  margin-bottom: -100%;
+  margin-top: -28.5%;
+  margin-left: 25%;
+  border: 3px solid whitesmoke;
+  width: 20%;
+  height: 3vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.trabalha {
+  display: flexbox;
+  position: absolute;
+  margin-bottom: -100%;
+  margin-top: -26.5%;
+  margin-left: 25%;
+  border: 3px solid whitesmoke;
+  width: 20%;
+  height: 3vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.dinner {
+  display: flexbox;
+  position: absolute;
+  margin-bottom: -100%;
+  margin-top: -24.5%;
+  margin-left: 25%;
   border: 3px solid whitesmoke;
   width: 20%;
   height: 3vh;
@@ -66,16 +100,53 @@ input {
   display: flexbox;
   position: absolute;
   border: 6px solid whitesmoke;
-  margin-left: 60%;
-  margin-top: -20%;
+  margin-left: 35%;
+  margin-top: -20.9%;
   width: 10%;
-  height: 3.5%;
+  height: 3vh;
 }
 button {
-  display: block;
-  margin: 10px;
-  margin-left: 60px;
+  display: flexbox;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -20%;
   border: 3px solid whitesmoke;
-  width: 20%;
-  height: 30px;
+  width: 7%;
+  height: 3vh;
 }
+
+h4 {
+  font-family: JosefinSans-VariableFont_wght;
+  font-size: 4vh;
+  margin-top: -37%;
+  margin-left: 50%;
+}
+
+.direitos {
+  font-family: Quicksand-VariableFont_wght;
+  font-size: 2vh;
+  margin-left: 50%;
+  margin-top: 8%;
+  text-align: left;
+}
+
+.direitos1 {
+  font-family: Quicksand-VariableFont_wght;
+  font-size: 2vh;
+  margin-left: 50%;
+  margin-top: 6%;
+}
+
+em {
+  font-family: GreatVibes-Regular;
+  font-size: 3vh;
+  font-style: italic;
+  margin-left: 50%;
+}
+
+#icon {
+  margin-left: 50%;
+  margin-top: 10%;
+  padding: 0%;
+}
+

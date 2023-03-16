@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
+    <section>
+      <figure>
+        <img
+          id="principal"
+          src="image/principal.jpg"
+          alt="relogio de parede quebrado"
+        />
+      </figure>
+    </section>
     <header>
       <h1>
         Cálculo <br />
@@ -24,25 +33,28 @@
       </h1>
       <p>Você sabe quanto tempo tem,dísponivel por dia?</p>
     </header>
-
     <main>
       <form>
         <input
+          class="day"
           type="number"
           id="dia"
           placeholder="Digite quantas horas tem o dia? "
         /><br />
         <input
+          class="sleep"
           type="number"
           id="sono"
           placeholder="Digite quantas horas dorme por dia?"
         /><br />
         <input
+          class="trabalha"
           type="number"
           id="trabalho"
           placeholder="Digite quantas horas trabalha por dia?"
         /><br />
         <input
+          class="dinner"
           type="number"
           id="almoco"
           placeholder="Digite quanto tempo de almoço?"
@@ -50,11 +62,59 @@
         <button type="submit" id="enviar">Realizar Cálculo</button><br />
         <label id="result"
           ><span id="resultado"
-            >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            Horas disponível</span
+            >&nbsp;&nbsp;&nbsp;&nbsp; Horas disponível</span
           ></label
         >
       </form>
     </main>
+    <section>
+      <figure>
+        <img
+          id="secundario"
+          src="image/rélogio quebrado.png"
+          alt="relógio antigo"
+        />
+      </figure>
+    </section>
+    <article>
+      <h4>
+        É preciso amar as pessoas<br />
+        como se não houvesse amanhã<br />
+        Por que se você parar pra pensar<br />
+        Na verdade não há...<br />
+        <br />
+        <br />Pais e filhos<br />
+        <br />Canção de Legião Urbana<br />
+      </h4>
+    </article>
+    <aside>
+      <p class="direitos1">Desenvolvedor Frontend</p>
+      <br />
+      <p class="direitos">Todos os direitos reservados -<br />Fábio Rocha | 2023</p>
+      <br />
+      <em>https://github.com/Fabiorocharb</em>
+      <br />
+    </aside>
+    <footer>
+      <div id="icon">
+        <a
+          href="https://www.instagram.com/analistarocha/?igshid=YmMyMTA2M2Y%3D"
+          target="_blank"
+          ><img src="icon/instagram.png" width="3%"
+        /></a>
+        <a href="https://github.com/Fabiorocharb" target="_blank"
+          ><img src="icon/github.png" width="3%"
+        /></a>
+        <a
+          href="https://www.youtube.com/channel/UCAUW6Mdu6zly5NTVgCFDm0w"
+          target="_blank"
+          ><img src="icon/youtube.png" width="3%"
+        /></a>
+        <a href="https://www.linkedin.com/in/fabiorocharb/" target="_blank"
+          ><img src="icon/linkdin.png" width="3%"
+        /></a>
+      </div>
+    </footer>
+    <script src="js/calculo.js"></script>
   </body>
 </html>
