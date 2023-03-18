@@ -150,7 +150,35 @@ em {
   padding: 0%;
 }
 
-@media screen and (min-width: 320px) and (max-width:480px) {
+@media (max-width: 1536px){
 
-  
+  #secundario {
+    width: 40%;
+    margin-top: -6.5%;
+  }
+  p {
+    margin-left: 20%;
+  }
+  #resultado {
+    margin-top: -21.1%;
+  }
+
+}
+@media (max-width: 1366px) {
+  #secundario {
+    margin-top: -6.9%;
+  }
+  #resultado {
+    border: 3px solid whitesmoke;
+    margin-top: -21.3%;
+  }
+  button {
+    border: 3px solid whitesmoke;
+    width: 9%;
+  }
+}
+@media (max-width: 414px) {
+  #principal {
+    width: 100%;
+  }
 }
