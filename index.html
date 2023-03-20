@@ -18,13 +18,16 @@
   </head>
   <body>
     <section>
-      <figure>
+      <picture>
+        <source media="(min-width: 412px) and (max-width: 846px)" srcset="image/mobile.jpg">
+        <source media="(min-width: 393px) and (max-width: 786px)" srcset="image/mobile.jpg">
+        <source media="(min-width: 360px) and (max-width: 740px)" srcset="image/mobile.jpg">
         <img
           id="principal"
           src="image/principal.jpg"
           alt="relogio de parede quebrado"
         />
-      </figure>
+      </picture>
     </section>
     <header>
       <h1>
@@ -90,7 +93,9 @@
     <aside>
       <p class="direitos1">Desenvolvedor Frontend</p>
       <br />
-      <p class="direitos">Todos os direitos reservados -<br />Fábio Rocha | 2023</p>
+      <p class="direitos">
+        Todos os direitos reservados -<br />Fábio Rocha | 2023
+      </p>
       <br />
       <em>https://github.com/Fabiorocharb</em>
       <br />
