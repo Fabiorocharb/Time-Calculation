@@ -287,6 +287,94 @@ em {
     margin-left: 50%;
   }
 }
+@media screen and (max-width: 480px) {
+ 
+  h1 {
+    font-size: 8vh;
+    margin-left: 10%;
+    margin-top: -88%;
+  }
+  p {
+    font-size: 2.5vh;
+    columns: 2;
+    margin-top: -60%;
+    margin-left: 7%;
+  }
+  .day {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 90%;
+  }
+  .sleep {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 90%;
+  }
+  .trabalha {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 90%;
+  }
+  .dinner {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 90%;
+  }
+  #resultado {
+    opacity: 50%;
+    margin-left: 50%;
+    margin-top: -51%;
+    width: 47%;
+    height: 7vh;
+    border: 10px solid whitesmoke;
+  }
+  button {
+    opacity: 50%;
+    margin-left: 7%;
+    margin-top: -46%;
+    width: 40%;
+    height: 7vh;
+    border: 10px solid whitesmoke;
+  }
+  #secundario {
+    width: 100%;
+    margin-top: -30%;
+  }
+  h4 {
+    font-size: 3.2vh;
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .direitos {
+    font-size: 2vh;
+    margin-left: 40%;
+    margin-top: 30%;
+    text-align: left;
+  }
+  .direitos1 {
+    font-size: 2vh;
+    margin-left: 35%;
+    margin-top: 20%;
+    text-align: center;
+  }
+  em {
+    font-size: 2.5vh;
+    text-align: center;
+    margin-left: 30%;
+  }
+  #icon {
+    margin-left: 0%;
+    margin-top: 25%;
+    padding: 0%;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 412px) and (max-width: 846px) {
   h1 {
     font-size: 5vh;
@@ -539,91 +627,3 @@ em {
     width: 100%;
   }
 }
-/*@media screen and (min-width: 320px) and (max-width: 480px) {
- 
-  h1 {
-    font-size: 8vh;
-    margin-left: 10%;
-    margin-top: -88%;
-  }
-  p {
-    font-size: 2.5vh;
-    columns: 2;
-    margin-top: -60%;
-    margin-left: 7%;
-  }
-  .day {
-    opacity: 50%;
-    margin-top: -48%;
-    margin-left: 7%;
-    width: 90%;
-  }
-  .sleep {
-    opacity: 50%;
-    margin-top: -48%;
-    margin-left: 7%;
-    width: 90%;
-  }
-  .trabalha {
-    opacity: 50%;
-    margin-top: -48%;
-    margin-left: 7%;
-    width: 90%;
-  }
-  .dinner {
-    opacity: 50%;
-    margin-top: -48%;
-    margin-left: 7%;
-    width: 90%;
-  }
-  #resultado {
-    opacity: 50%;
-    margin-left: 50%;
-    margin-top: -51%;
-    width: 47%;
-    height: 7vh;
-    border: 10px solid whitesmoke;
-  }
-  button {
-    opacity: 50%;
-    margin-left: 7%;
-    margin-top: -46%;
-    width: 40%;
-    height: 7vh;
-    border: 10px solid whitesmoke;
-  }
-  #secundario {
-    width: 100%;
-    margin-top: -30%;
-  }
-  h4 {
-    font-size: 3.2vh;
-    margin-top: 0%;
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .direitos {
-    font-size: 2vh;
-    margin-left: 40%;
-    margin-top: 30%;
-    text-align: left;
-  }
-  .direitos1 {
-    font-size: 2vh;
-    margin-left: 35%;
-    margin-top: 20%;
-    text-align: center;
-  }
-  em {
-    font-size: 2.5vh;
-    text-align: center;
-    margin-left: 30%;
-  }
-  #icon {
-    margin-left: 0%;
-    margin-top: 25%;
-    padding: 0%;
-    width: 100%;
-  }
-}/*
