@@ -326,7 +326,7 @@ em {
   #resultado {
     opacity: 50%;
     margin-left: 7%;
-    margin-top: -33%;
+    margin-top: -30%;
     width: 40%;
   }
   button {
@@ -363,6 +363,262 @@ em {
     font-size: 2.5vh;
     text-align: center;
     margin-left: 22%;
+  }
+  #icon {
+    margin-left: 0%;
+    margin-top: 25%;
+    padding: 0%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 393px) and (max-width: 786px) {
+  h1 {
+    font-size: 5vh;
+    margin-left: 10%;
+    margin-top: -85%;
+  }
+  p {
+    font-size: 2vh;
+    columns: 2;
+    margin-top: -60%;
+    margin-left: 7%;
+  }
+  .day {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 68%;
+  }
+  .sleep {
+    opacity: 50%;
+    margin-top: -45%;
+    margin-left: 7%;
+    width: 68%;
+  }
+  .trabalha {
+    opacity: 50%;
+    margin-top: -42%;
+    margin-left: 7%;
+    width: 68%;
+  }
+  .dinner {
+    opacity: 50%;
+    margin-top: -39%;
+    margin-left: 7%;
+    width: 68%;
+  }
+  #resultado {
+    opacity: 50%;
+    margin-left: 7%;
+    margin-top: -33%;
+    width: 40%;
+  }
+  button {
+    opacity: 50%;
+    margin-left: 7%;
+    margin-top: -36%;
+    width: 30%;
+    height: 3vh;
+  }
+  #secundario {
+    width: 100%;
+    margin-top: -25.5%;
+  }
+  h4 {
+    font-size: 2.5vh;
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .direitos {
+    font-size: 1.6vh;
+    margin-left: 40%;
+    margin-top: 30%;
+    text-align: left;
+  }
+  .direitos1 {
+    font-size: 2vh;
+    margin-left: 35%;
+    margin-top: 20%;
+    text-align: center;
+  }
+  em {
+    font-size: 2.5vh;
+    text-align: center;
+    margin-left: 22%;
+  }
+  #icon {
+    margin-left: 0%;
+    margin-top: 25%;
+    padding: 0%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  h1 {
+    font-size: 5vh;
+    margin-left: 10%;
+    margin-top: -85%;
+  }
+  p {
+    font-size: 2vh;
+    columns: 2;
+    margin-top: -60%;
+    margin-left: 7%;
+  }
+  .day {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 78%;
+  }
+  .sleep {
+    opacity: 50%;
+    margin-top: -45%;
+    margin-left: 7%;
+    width: 78%;
+  }
+  .trabalha {
+    opacity: 50%;
+    margin-top: -42%;
+    margin-left: 7%;
+    width: 78%;
+  }
+  .dinner {
+    opacity: 50%;
+    margin-top: -39%;
+    margin-left: 7%;
+    width: 78%;
+  }
+  #resultado {
+    opacity: 50%;
+    margin-left: 48%;
+    margin-top: -37%;
+    width: 50%;
+  }
+  button {
+    opacity: 50%;
+    margin-left: 7%;
+    margin-top: -31.5%;
+    width: 40%;
+    height: 3vh;
+  }
+  #secundario {
+    width: 100%;
+    margin-top: -28%;
+  }
+  h4 {
+    font-size: 2.5vh;
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .direitos {
+    font-size: 1.6vh;
+    margin-left: 40%;
+    margin-top: 30%;
+    text-align: left;
+  }
+  .direitos1 {
+    font-size: 2vh;
+    margin-left: 35%;
+    margin-top: 20%;
+    text-align: center;
+  }
+  em {
+    font-size: 2.5vh;
+    text-align: center;
+    margin-left: 22%;
+  }
+  #icon {
+    margin-left: 0%;
+    margin-top: 25%;
+    padding: 0%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+ 
+  h1 {
+    font-size: 8vh;
+    margin-left: 10%;
+    margin-top: -88%;
+  }
+  p {
+    font-size: 2.5vh;
+    columns: 2;
+    margin-top: -60%;
+    margin-left: 7%;
+  }
+  .day {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 90%;
+  }
+  .sleep {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 90%;
+  }
+  .trabalha {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 90%;
+  }
+  .dinner {
+    opacity: 50%;
+    margin-top: -48%;
+    margin-left: 7%;
+    width: 90%;
+  }
+  #resultado {
+    opacity: 50%;
+    margin-left: 50%;
+    margin-top: -51%;
+    width: 47%;
+    height: 7vh;
+    border: 10px solid whitesmoke;
+  }
+  button {
+    opacity: 50%;
+    margin-left: 7%;
+    margin-top: -46%;
+    width: 40%;
+    height: 7vh;
+    border: 10px solid whitesmoke;
+  }
+  #secundario {
+    width: 100%;
+    margin-top: -30%;
+  }
+  h4 {
+    font-size: 3.2vh;
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .direitos {
+    font-size: 2vh;
+    margin-left: 40%;
+    margin-top: 30%;
+    text-align: left;
+  }
+  .direitos1 {
+    font-size: 2vh;
+    margin-left: 35%;
+    margin-top: 20%;
+    text-align: center;
+  }
+  em {
+    font-size: 2.5vh;
+    text-align: center;
+    margin-left: 30%;
   }
   #icon {
     margin-left: 0%;
