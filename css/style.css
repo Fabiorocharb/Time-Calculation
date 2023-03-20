@@ -539,7 +539,7 @@ em {
     width: 100%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+/*@media screen and (min-width: 320px) and (max-width: 480px) {
  
   h1 {
     font-size: 8vh;
@@ -626,4 +626,4 @@ em {
     padding: 0%;
     width: 100%;
   }
-}
+}/*
