@@ -1,5 +1,5 @@
-<div align="left">
-<img src="https://user-images.githubusercontent.com/106245486/227398702-03bd83eb-c772-4aae-ab1a-61f79c4c1c0b.png" alt="logotipo da página" width="30%" />
+<div align="center">
+<img src="https://user-images.githubusercontent.com/106245486/227398702-03bd83eb-c772-4aae-ab1a-61f79c4c1c0b.png" alt="logotipo da página" width="35%" />
 </div>
 
 > ****Status do projeto****: completo ✅
