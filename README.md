@@ -1,14 +1,13 @@
 <div align="center">
-<img src="https://user-images.githubusercontent.com/106245486/227398702-03bd83eb-c772-4aae-ab1a-61f79c4c1c0b.png" alt="logotipo da página" width="35%" />
+<img src="https://user-images.githubusercontent.com/106245486/227398702-03bd83eb-c772-4aae-ab1a-61f79c4c1c0b.png" alt="logotipo da página" />
 </div>
 
 > ****Status do projeto****: completo ✅
 
 <h2> 🎯 Objetivo do projeto:</h2>
 
-<p><em>Saber quantas horas temos disponível por dia.</em></p> 
-<p><em>Além disso a página deve conter:</em></p> 
-<p><strong>imagens chamativa de fundo, interação com usuário, links para contatos e responsividade.</strong></p>
+<p><em>Demonstrar a quantidade de horas diarias disponível por dia.</em></p> 
+<p><strong>Conter:</strong> imagens chamativas de fundo, interação com usuário, links para contatos e responsividade.</p>
 
 <img src="https://img.shields.io/bower/l/html?style=flat-square"/>
 
@@ -19,14 +18,14 @@
 <h2>🔗 Link do site: </h2>
 https://fabiorocharb.github.io/Time-Calculation/
 
-<h2>🧰 Site e extensão ultilizado:</h2>
+<h2>🧰 Site e extensão utilizados:</h2>
 
 <p>✅ https://responsiveviewer.org/ </p>
 <p>✅ ResponsivelyApp </p>
 <p>✅ Checkbot: SEO,Web Speed and Security Tester - Extensão do Google </p>
 
 
-<h2>👨‍💻 Tecnologias ultilizadas :</h2>
+<h2>👨‍💻 Tecnologias usadas :</h2>
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="logo canva" width="6%"/>    
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="logo html5" width="6%" />
