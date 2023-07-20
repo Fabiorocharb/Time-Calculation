@@ -17,27 +17,15 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section>
-      <picture>
-        <source media="(min-width: 412px) and (max-width: 846px)" srcset="image/mobile.jpg">
-        <source media="(min-width: 393px) and (max-width: 786px)" srcset="image/mobile.jpg">
-        <source media="(min-width: 360px) and (max-width: 740px)" srcset="image/mobile.jpg">
-        <source media="(min-width: 320px) and (max-width: 480px)" srcset="image/mobile.jpg">
-        <img
-          id="principal"
-          src="image/principal.jpg"
-          alt="relogio de parede quebrado"
-        />
-      </picture>
-    </section>
-    <header>
-      <h1>
-        Cálculo <br />
-        Do tempo
-      </h1>
-      <p>Você sabe quanto tempo tem,dísponivel por dia?</p>
-    </header>
-    <main>
+    <header id="principal"></header>
+    <main class="animated-box">
+      <div id="calculo">
+        <h1>
+          Cálculo <br />
+          Do tempo
+        </h1>
+        <p class="p">Você sabe quanto tempo tem,dísponivel por dia?</p>
+      </div>
       <form>
         <input
           class="day"
@@ -46,29 +34,29 @@
           placeholder="Digite quantas horas tem o dia? "
         /><br />
         <input
-          class="sleep"
+          class="day"
           type="number"
           id="sono"
           placeholder="Digite quantas horas dorme por dia?"
         /><br />
         <input
-          class="trabalha"
+          class="day"
           type="number"
           id="trabalho"
           placeholder="Digite quantas horas trabalha por dia?"
         /><br />
         <input
-          class="dinner"
+          class="day"
           type="number"
           id="almoco"
           placeholder="Digite quanto tempo de almoço?"
         /><br />
-        <button type="submit" id="enviar">Realizar Cálculo</button><br />
-        <label id="result"
-          ><span id="resultado"
-            >&nbsp;&nbsp;&nbsp;&nbsp; Horas disponível</span
-          ></label
-        >
+        <div class="container">
+          <button type="submit" id="enviar">Realizar Cálculo</button><br />
+          <label id="result"
+            ><span id="resultado">Horas disponível</span></label
+          >
+        </div>
       </form>
     </main>
     <section>
@@ -86,38 +74,33 @@
         como se não houvesse amanhã<br />
         Por que se você parar pra pensar<br />
         Na verdade não há...<br />
-        <br />
+
         <br />Pais e filhos<br />
         <br />Canção de Legião Urbana<br />
       </h4>
     </article>
     <aside>
-      <p class="direitos1">Desenvolvedor Frontend</p>
-      <br />
       <p class="direitos">
         Todos os direitos reservados -<br />Fábio Rocha | 2023
       </p>
-      <br />
-      <em>https://github.com/Fabiorocharb</em>
-      <br />
     </aside>
     <footer>
       <div id="icon">
         <a
           href="https://www.instagram.com/analistarocha/?igshid=YmMyMTA2M2Y%3D"
           target="_blank"
-          ><img src="icon/instagram.png" width="3%"
+          ><img src="icon/instagram.png" width="30%"
         /></a>
         <a href="https://github.com/Fabiorocharb" target="_blank"
-          ><img src="icon/github.png" width="3%"
+          ><img src="icon/github.png" width="30%"
         /></a>
         <a
           href="https://www.youtube.com/channel/UCAUW6Mdu6zly5NTVgCFDm0w"
           target="_blank"
-          ><img src="icon/youtube.png" width="3%"
+          ><img src="icon/youtube.png" width="30%"
         /></a>
         <a href="https://www.linkedin.com/in/fabiorocharb/" target="_blank"
-          ><img src="icon/linkdin.png" width="3%"
+          ><img src="icon/linkdin.png" width="30%"
         /></a>
       </div>
     </footer>
