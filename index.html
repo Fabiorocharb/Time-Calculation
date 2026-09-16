@@ -17,48 +17,62 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header id="principal"></header>
-    <main class="animated-box">
-      <div id="calculo">
-        <h1>
-          Cálculo <br />
-          Do tempo
-        </h1>
-        <p class="p">Você sabe quanto tempo tem,dísponivel por dia?</p>
+    <div id="principal">
+      <div class="time-scene" hidden>
+        <svg class="time-scene__art" viewBox="0 0 2048 1152" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Uma mulher move o braço e faz os ponteiros do relógio avançarem.">
+          <defs>
+            <clipPath id="raised-arm-clip">
+              <path d="M1011 823 L1026 820 L1041 816 L1051 812 L1058 803 L1065 792 L1064 785 L1064 779 L1067 781 L1069 786 L1069 781 L1072 783 L1074 790 L1072 798 L1067 806 L1060 817 L1054 822 L1040 826 L1028 831 L1016 836 Z" />
+            </clipPath>
+          </defs>
+          <image href="image/principal-clean.png" width="2048" height="1152" preserveAspectRatio="none" />
+          <g id="scene-arm">
+            <image href="image/principal.jpg" width="2048" height="1152" clip-path="url(#raised-arm-clip)" />
+          </g>
+          <g transform="translate(1330 526) matrix(.79 -.08 .02 1 0 0)" fill="#211b13" stroke="#100e0a" stroke-width="1.5">
+            <g id="scene-hour-hand">
+              <path d="M0 15 L-4 4 L-3 -48 Q-11 -57 0 -72 Q11 -57 3 -48 L4 4 Z" />
+            </g>
+            <g id="scene-minute-hand">
+              <path d="M0 19 L-3 6 L-2 -77 L-5 -84 L0 -103 L5 -84 L2 -77 L3 6 Z" />
+            </g>
+            <circle r="6" />
+          </g>
+        </svg>
+        <button class="scene-toggle" type="button" aria-pressed="false">Pausar animação</button>
       </div>
-      <form>
-        <input
-          class="day"
-          type="number"
-          id="dia"
-          placeholder="Digite quantas horas tem o dia? "
-        /><br />
-        <input
-          class="day"
-          type="number"
-          id="sono"
-          placeholder="Digite quantas horas dorme por dia?"
-        /><br />
-        <input
-          class="day"
-          type="number"
-          id="trabalho"
-          placeholder="Digite quantas horas trabalha por dia?"
-        /><br />
-        <input
-          class="day"
-          type="number"
-          id="almoco"
-          placeholder="Digite quanto tempo de almoço?"
-        /><br />
-        <div class="container">
-          <button type="submit" id="enviar">Realizar Cálculo</button><br />
-          <label id="result"
-            ><span id="resultado">Horas disponível</span></label
-          >
+      <main class="animated-box">
+        <div id="calculo">
+          <h1>
+            Cálculo <br />
+            Do tempo
+          </h1>
+          <p class="p">Você sabe quanto tempo tem disponível por dia?</p>
         </div>
-      </form>
-    </main>
+        <form>
+          <label class="field" for="dia">
+            Quantas horas tem o dia?
+            <input class="day" type="number" id="dia" placeholder="Ex.: 24" />
+          </label>
+          <label class="field" for="sono">
+            Quantas horas dorme por dia?
+            <input class="day" type="number" id="sono" placeholder="Ex.: 8" />
+          </label>
+          <label class="field" for="trabalho">
+            Quantas horas trabalha por dia?
+            <input class="day" type="number" id="trabalho" placeholder="Ex.: 8" />
+          </label>
+          <label class="field" for="almoco">
+            Quanto tempo de almoço (em horas)?
+            <input class="day" type="number" id="almoco" placeholder="Ex.: 1" />
+          </label>
+          <div class="container">
+            <button type="submit" id="enviar">Realizar Cálculo</button>
+            <output id="result" aria-live="polite"><span id="resultado">Horas disponíveis</span></output>
+          </div>
+        </form>
+      </main>
+    </div>
     <div class="container2">
       <section class="image">
         <figure>
@@ -90,22 +104,23 @@
         <a
           href="https://www.instagram.com/analistarocha/?igshid=YmMyMTA2M2Y%3D"
           target="_blank"
-          ><img src="icon/instagram.png" width="30%"
+          ><img src="icon/instagram.png" alt="Instagram"
         /></a>
         <a href="https://github.com/Fabiorocharb" target="_blank"
-          ><img src="icon/github.png" width="30%"
+          ><img src="icon/github.png" alt="GitHub"
         /></a>
         <a
           href="https://www.youtube.com/channel/UCAUW6Mdu6zly5NTVgCFDm0w"
           target="_blank"
-          ><img src="icon/youtube.png" width="30%"
+          ><img src="icon/youtube.png" alt="YouTube"
         /></a>
         <a href="https://www.linkedin.com/in/fabiorocharb/" target="_blank"
-          ><img src="icon/linkdin.png" width="30%"
+          ><img src="icon/linkdin.png" alt="LinkedIn"
         /></a>
       </div>
     </footer>
     <hr class="black-hr" />
     <script src="js/calculo.js"></script>
+    <script src="js/scene.js"></script>
   </body>
 </html>

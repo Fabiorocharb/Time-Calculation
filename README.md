@@ -4,6 +4,14 @@
 
 > ****Status do projeto****: completo ✅
 
+## Testes de responsividade
+
+Com Node.js e Microsoft Edge instalados, execute `npm install` e `npm test`.
+Os testes usam Playwright para verificar 11 tamanhos de tela, de 320 a 2560 pixels,
+incluindo orientação horizontal e texto ampliado. Verificam transbordamento,
+sobreposição das seções, carregamento das imagens e o cálculo de horas.
+As capturas de cada tamanho ficam em `test-results/`.
+
 <h2> 🎯 Objetivo do projeto:</h2>
 
 <p><em>Demonstrar a quantidade de horas diarias disponível por dia.</em></p> 
